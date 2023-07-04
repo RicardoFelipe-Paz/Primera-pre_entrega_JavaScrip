@@ -10,7 +10,8 @@ let altura = 0;
 let radio = 0;
 let figura = 0;
 let volumen = 0;
-do {
+
+function todoelprogram (){
     figura = parseInt (prompt("A continuacion se muestran una lista de figuras para calcular su volumen, por favor elija la de su interes:\n 1- Cubo\n 2 - Prisma Rectangular\n 3 - Cilindro\n 4 - Esfera\n 5- Cono\n"));
 
 if (figura == 1) {                  //Cubo
@@ -63,5 +64,9 @@ if (figura == 1) {                  //Cubo
     repetir = 1;
     
 
-} } while (repetir != 0);
+}
+}
+do {
+    todoelprogram ();     
+} while (repetir != 0);
     
